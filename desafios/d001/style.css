@@ -15,11 +15,12 @@ body {
     background-size: cover;
     background-attachment: fixed;
 
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
 }
 
 header, main, section, article {

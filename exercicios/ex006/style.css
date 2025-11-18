@@ -16,6 +16,7 @@ body {
   background-attachment: fixed;
 
   display: flex;
+  flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
@@ -28,6 +29,8 @@ main,
 section,
 article {
   max-width: 700px;
+  
+  
 }
 
 header > h1 {
@@ -248,3 +251,4 @@ input[type="checkbox"] + label {
   font-size: 1em;
   background-color: rgba(0, 0, 0, 0);
 }
+
